@@ -51,7 +51,7 @@ function wpiss_post_template() {
 		</li>
 	</script>';
 
-	echo apply_filters( 'wpiss_post_tempalte', $template );
+	echo apply_filters( 'wpiss_post_template', $template );
 }
 add_action( 'wp_footer', 'wpiss_post_template');
 
